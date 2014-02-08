@@ -24,7 +24,7 @@ public class Main extends Activity {
 		Button btnNormalScale = (Button)findViewById(R.id.btnNormalScale);
 		btnNormalScale.setOnClickListener(new OnClickListener() {
 			public void onClick(View arg0) {
-				anim = new TranslateAnimation(0, 100, 0, 100);
+				anim = new TranslateAnimation(0, 0, 0, 100);
 				anim.setDuration(1000);
 				imgLogo.startAnimation(anim);
 			}
